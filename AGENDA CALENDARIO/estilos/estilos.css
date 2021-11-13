@@ -1,0 +1,195 @@
+
+*,::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(200, 200, 200, 0.9);
+}
+
+div {
+    display: flex;
+}
+
+div nav {
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(300, 0, 0, 0.2);
+    position: relative;
+}
+
+div nav ul {
+    justify-content: center;
+}
+
+div nav ul li a {
+    font-weight: bold;
+}
+
+div nav ul li:hover{
+    background-color:mintcream;
+    transition-duration: 1s;
+}
+
+.menu {
+    flex-basis: 100%;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    flex-basis: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    font-size: 26px;
+    flex-basis: 100%;
+    padding: 1rem;
+}
+
+.container {
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+}
+
+.formulario-datos{
+    display: block;
+    width: 50%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario-datos input {
+    margin: 1rem 0rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: white;
+}
+
+.formulario-datos input:focus{
+    border-bottom: 1px solid dodgerblue;
+}
+
+.formulario-datos button {
+    margin: 1rem 0rem;
+    background-color: dodgerblue;
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.listado-contactos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.icono {
+    color: coral;
+    cursor: pointer;
+}
+
+
+/*calculadora*/
+
+.calc{
+    display: block;
+    margin-top: 20px;
+    width: 350px;
+    background-color: #39383d;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.calc-display{
+    width: 100%;
+    height: 75px;
+    border: none;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+input[type=button]{
+    width: 75px;
+    height: 75px;
+    margin: 2px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: #58595b;
+
+}
+
+.calculadora{
+    width: 324px;
+    margin: auto;
+    background-color: #39383d;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.display{
+    width: 100%;
+    height: 75px;
+    border: none;
+    background-color: #a2af77;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+input[type=button]{
+    width: 75px;
+    height: 75px;
+    margin: 2px;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    background-color: #58595b;
+}
+
+/*Numeros relevantes*/
+
+#telefonosDisponibles {
+    width: 100%;
+}
+
+#respuesta {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-size: 20px;
+    
+}
