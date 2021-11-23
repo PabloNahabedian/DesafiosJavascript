@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Policía",
+    "number": "101/911",
+    "utilitynumber": "pepe"
+    
+  },
+  {
+    "id": 2,
+    "name": "Bomberos",
+    "number": "100",
+    "utilitynumber": "pepe"
+    
+  },
+  {
+    "id": 3,
+    "name": "Emergencias Defensa Civil",
+    "number": "103",
+    "utilitynumber": "1"
+    
+  },
+  {
+    "id": 4,
+    "name": "SAME Emergencias",
+    "number": "107",
+    "utilitynumber": "1"
+    
+  },
+  {
+    "id": 5,
+    "name": "Mujer",
+    "number": "144",
+    "utilitynumber": "1"
+    
+  },
+  {
+    "id": 6,
+    "name": "Trata de personas",
+    "number": "145",
+    "utilitynumber": "1"
+    
+  },
+  {
+    "id": 7,
+    "name": "Línea Social",
+    "number": "108",
+    "utilitynumber": "1"
+    
+  }
+]
